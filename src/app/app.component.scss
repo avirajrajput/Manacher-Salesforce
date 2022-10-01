@@ -1,0 +1,183 @@
+.fram{
+    width: 100%;
+    height: 100%;
+    //position: relative;
+}
+.tool-bar{
+    height: 25px;
+    background-color: #000000;
+    border-radius: 0%;
+}
+.background-Wallpaper{
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    user-select:none;
+}
+.below-fram{
+    width: 100%;
+    height: 100%;
+    //position: absolute;
+    //margin-top: 25px;
+}
+.left-container{
+    background-color: #009EDB;
+    width: 70%;
+    height: 100%;
+    overflow: auto;
+  
+}
+.right-container{
+    background-color: #009EDB;
+    width: 30%;
+    height: 100%;
+    overflow: auto;
+}
+.right-top{
+    // width: 100%;
+    height: 50%;
+}
+.right-down{
+    // width: 100%;
+    height: 50%;
+    margin-top: 10px
+}
+.head-text{
+    font-size: 20px;
+    // font-weight: bold;
+    color: white;
+}
+.radius-0px{
+    border-radius: 0px;
+}
+.footer{
+    background-color: #000;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #6fb7d3; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+.contact-head{
+    font-size: 20px;
+    color: #9b9b9b;
+    user-select:none;
+}
+
+.content-back{
+    background-color: #000;
+    height: 100%;
+    position: relative;
+}
+.content-front{
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%;
+    position: absolute
+}
+.back-text{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.164);
+    height: 50px;
+    font-family: 'Aller', sans-serif;
+}
+.service-head{
+    font-size: 35px;
+    color: #9b9b9b;
+}
+.text-style{
+    font-size: 25px;
+    color: white;
+    margin-top: 25px;
+    font-family: 'Lab Grotesque', sans-serif;
+    list-style-type: none;
+    font-family: 'Lab Grotesque', sans-serif;
+}
+.tech-box{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 120px;
+    height: 12%;
+}
+.tech-img{
+    width: 60px;
+    height: 60px;
+    user-select:none;
+}
+.tech-text{
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Lab Grotesque', sans-serif;
+    user-select:none;
+}
+.social-text{
+    font-size: 20px;
+    color: #353535;
+    font-family: 'Lab Grotesque', sans-serif;
+    margin-left: 20px;
+    user-select:none;
+}
+.border-head{
+    // border-style: solid none solid none;
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgba(255, 255, 255, 0);
+}
+.card-style{
+    border-radius: 5px;
+}
+.film-balck{
+    background-color: rgba(0, 0, 0, 0.13);
+}
+.film-white{
+    background-color: rgba(255, 255, 255, 0.13);
+}
+.text-white{
+    font-size: 18px;
+    color: white;
+    font-family: 'Lab Grotesque', sans-serif;
+}
+.flag-card{
+    width: 200px;
+    height: 130px;
+    padding: 0%;
+}
+
+.card2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 120px;
+    height: 12%;
+}
+.card2-text{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Lab Grotesque', sans-serif;
+}
+
+.full-size{
+    width: 100%;
+    height: 100%;
+}
+
+.button-card {
+    cursor: pointer;
+}
+
+.button-card:active {
+    background-color: antiquewhite;
+}
